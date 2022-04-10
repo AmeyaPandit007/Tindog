@@ -1,0 +1,200 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3.85rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 200;
+}
+
+#title {
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 13% 5%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    /* font-family: "MonteCarlo",cursive; */
+    font-family: "Pacifico";
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-weight:300;
+    text-shadow: 1.25px 1px #fff;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-nav {
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+    transform: rotate(25deg);
+    width: 21%;
+    position: absolute;
+    right: 26%;
+}
+
+/* Featues */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 0 3%;
+}
+
+.feature-icon {
+    color: #FE7E6D;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-family: "Fredoka One";
+    font-size: 1.75rem;
+}
+
+.feature-text {
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #FE7E6D;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 6% 15% 30px;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-family: "Montserrat-bold",sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Press */
+
+#press {
+    background-color: #FE7E6D;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+/* Media Query */
+@media (max-width : 1200px) and (min-width : 992px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 25%;
+        transform: rotate(25deg);
+        position: absolute;
+        right: 15%;
+    }
+}
+@media (max-width : 991px)  {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 52%;
+    }
+}
+
+/* CTA section */
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 20%;
+    color: White;
+}
+
+.cta-heading {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.d-button {
+    padding: 1.25% 1%;
+    margin-top: 3%
+}
+
+/* Footer */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+#footer {
+    border-color: #fff;
+    text-align: center;
+    padding: 3% 15%;
+}
